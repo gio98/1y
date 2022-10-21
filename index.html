@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TI AMO IMMENSAMENTE AMORE DELLA MIA VITA!</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Teko:wght@300;400&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+   
+<div id="app">
+	<div id="manidiv" style="background-color: white;"><img class="imgmani" src="mani.jpg" alt=""></div>
+	<div id="annivdiv" style="background-color: white;"><img class="imganniv" src="anniv.jpg" alt=""></div>
+	<div id="gift" class="gift" :class="{dukdik: !open}" @click="click">
+	 <a id="txtgift" class="btn btn-gold giftbanner" open-modal="true"  modal-id="example" id="btnmod" href="javascript:void(0)">OPEN</a> 
+
+	 <div class="congrats">
+		<div class="el ang-a animated d-none" data-in="zoomOut"></div>
+		<div class="el ang-b animated d-none" data-in="zoomOut"></div>
+		<div class="el glow animated d-none" data-in="fadeIn"></div>
+		<div class="el bg bg-1 animated d-none" data-in="fadeIn" data-out="zoomOut"></div>
+		<div class="el dots animated d-none"> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i></div>
+		<div class="el bg bg-2 animated d-none" data-in="zoomIn" data-out="bounceOut"></div>
+		<div class="el ang-c animated d-none" data-in="zoomOut"></div>
+		<div class="el shine animated d-none" data-in="shineIn" data-out="fadeOut"></div>
+		<div class="el text animated d-none" data-in="zoomOutIn" data-out="zoomOutLeft">BOOYAH!!	
+			<div class="typewriter">
+				<h1>GRAZIE!</h1>
+			  </div>
+			  
+			  <div class="message"> 
+				<p class="line-1 anim-typewriter"><br>
+				Gracias desde el fondo de mi corazón que vive en cada latido tuyo con cada simple gesto que me hace vivir y que me hace conocer la felicidad. Gracias por este maravilloso año juntos que día tras día hemos pasado con nuestro amor cada vez más unidos y más fuertes juntos capaces de afrontar todo tipo de retos que siempre hemos ganado con el corazón y el alma juntos, gracias por enseñarme a Nunca te rindas con tu sonrisa, tu calma y tu amabilidad que me hacen vivir haciendo que mi corazón explote de amor y alegría, un sentimiento indescriptible que quiero vivir y proteger con todo de mí porque es lo más importante que me ha dado la vida. yo. Gracias por enseñarme cosas nuevas y asombrosas, por capacitarme para nunca rendirme y creer en mí mismo. Me encanta despertarme en tus maravillosos brazos que me hacen sentir tan segura como un bebé mientras escucho tu dulce y suave voz que me hace relajarme y quedarme dormida junto con el latido de tu corazón que mantiene viva a la persona más increíble y única del mundo. todo.universo. Quiero estar aquí siempre y para siempre para protegerte de todo mal. Cada día te mereces solo el bien increíble que este mundo puede dar, porque eres el ángel más increíble y sabio de todo el cielo. Gracias por entrar en mi corazón y hacer mi vida mejor. Te amo inmensamente cada día desde el fondo de mi corazón que cada día existe y existirá para ti que eres mi oxigeno que me da energía y fuerza para estar aquí contigo a tu lado y llenarte cada día de mi amor. Te amo inmensamente desde el fondo de mi mente donde cada día eres el sueño más increíble y único que quiero tener en mi mente. Te amo inmensamente desde lo más profundo de mi alma y cuerpo que cada día están formados por ti que eres cada día mi todo. ¡Dios te bendiga todos los días, porque eres la persona más extraordinaria que he creado! ¡FELIZ ANIVERSARIO AMOR DE MI VIDA, GRACIAS POR EXISTIR EN MI VIDA QUE TODOS LOS DÍAS ERES MI TODO DESDE TU PICCOLO TOPOLINO VIZIATO!
+				<br>
+			    </p>
+	        </div>
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/HZrWMXFjfpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	 <div class="gift-top" 
+		   :class="{boxOpen: open}"
+	   ></div>
+	  <h1 class="gift-text" v-if="open">{{text}}</h1> 
+	  <div class="gift-box"
+		   :class="{boxDown: open}"
+	   ></div>
+	</div>
+</div> 
+  
+
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script><script  src="./script.js"></script>
+  
+  <!-- partial -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue.min.js'></script><script  src="./script_g.js"></script>
+  
+</body>
+</html>
